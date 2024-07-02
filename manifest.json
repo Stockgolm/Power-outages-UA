@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Universal Light Outage Timer",
+  "name": "Power outages UA",
   "version": "1.0",
   "description": "Displays a timer on all sites.",
   "permissions": [
