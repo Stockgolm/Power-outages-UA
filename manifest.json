@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Light Outage Timer",
+  "version": "1.0",
+  "description": "Displays a timer on all sites.",
+  "permissions": [
+    "activeTab",
+    "background"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "energy.png"
+  }
+}
