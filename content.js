@@ -110,4 +110,4 @@
   }
   fetchDataAndUpdateTimer();
   setInterval(fetchDataAndUpdateTimer, updateInterval);
-})();
+})(); 
